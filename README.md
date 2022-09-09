@@ -67,6 +67,5 @@ Operating temperature				                -40°C ~ 125°C
 
 #Dependencies : smbus2
 
-
-
+#Link : https://www.best-microcontroller-projects.com/ads1115.html
 
