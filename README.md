@@ -1,6 +1,6 @@
 # ADS1115 Python library
 
-Simple Python library to use the ADS1115 chip.
+Simple Python library to use the ADS1115 chip for any Riscv based platform and can also doable for other.
 
 # ADS1115: A precision 16 bit ADC with high amazing Accuracy with differential or single ended inputs and improve analog measurements with high resolution capability.
 
