@@ -9,7 +9,7 @@ except ImportError:
 	from distutils.core import setup
 
 setup(name='ADS1115',
-      version='0.2.9',
+      version='0.2.1',
       description='Python library for interacting with the ADS1115 Analog to Digital Converter.',
       url='http://github.com/EmbdEzaz9/ADS1115_AdcPyMod',
       author='EmbdEzaz9',
