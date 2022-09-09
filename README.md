@@ -35,22 +35,35 @@ This accuracy includes all sources of error (voltage reference, Gain error, offs
 Parameter                                        Value
 
 Voltage Supply (VDD)                             2V0 ~ 5V5
-Abs.Max VDD					-0.3V ~ 7V0
-Measurement range				-300mV ~ Vdd+300mV
-Interface					I2C
-I2C rate					100kHz, 400kHz, 3.4MHz
-Resolution					16 bits (±15 bits)
-Data rate					8 ~ 860 SPS
-Number of multiplexed inputs			4
-Active current					~150uA (200uA max)
-Power down current				0.5uA (2uA max)
-Offset error [1]				±3 LSB
-Integral Non-Linearity (INL) [1]		1 LSB
-Gain error [1],[2], @ 25°C			0.01% (typ) 0.15% (max)
-I2C Addresses (selectable)			0x48, 0x49, 0x4a, 0x4b
-Operating temperature				-40°C ~ 125°C
 
-# License : Mit
+Abs.Max VDD					                            -0.3V ~ 7V0
+Measurement range				                        -300mV ~ Vdd+300mV
+
+Interface					                              I2C
+
+I2C rate					                             100kHz, 400kHz, 3.4MHz
+
+Resolution					                           16 bits (±15 bits)
+
+Data rate					                            8 ~ 860 SPS
+
+Number of multiplexed inputs			            4
+
+Active current					                     ~150uA (200uA max)
+
+Power down current			                    	0.5uA (2uA max)
+
+Offset error [1]				                      ±3 LSB
+
+Integral Non-Linearity (INL) [1]	          	1 LSB
+
+Gain error [1],[2], @ 25°C			            0.01% (typ) 0.15% (max)
+
+I2C Addresses (selectable)			            0x48, 0x49, 0x4a, 0x4b
+
+Operating temperature				                -40°C ~ 125°C
+
+#License : Mit
 
 #Dependencies : smbus2
 
